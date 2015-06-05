@@ -95,9 +95,9 @@ module.exports = function(config) {
                         var collection = db.collection(coll);
 
                         // Perform Insert
-                        collection.insert(insert, function(err, docs) {
+                        collection.insertOne(insert, function(err, result) {
 
-                            return reply(docs[0]).type('application/json');
+                            return reply(result.ops[0]).type('application/json');
                         });
                     }
                 });
