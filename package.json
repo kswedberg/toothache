@@ -30,7 +30,7 @@
     "boom": "^2.5.1",
     "extend": "^1.3.0",
     "joi": "^4.6.2",
-    "mongodb": "^1.4.9"
+    "mongodb": "^2.0.33"
   },
   "devDependencies": {
     "coveralls": "^2.11.1",
