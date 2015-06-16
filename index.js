@@ -173,7 +173,7 @@ module.exports = function(config) {
                 }
 
                 // Add payload to find object
-                if(request.payload) {
+                if(payload) {
                     Extend(find, payload);
                 }
 
